@@ -13,7 +13,11 @@ public class AoCProgram(ITokenAnalyzer part1, ITokenAnalyzer part2) : IProgramCo
         using var state = new InputOutputState(args);
         state.OpenInputFile(0);
 
-        var tokenAnalyzer = args[0] == "part2" ? part2 : part1;
+        var tokenAnalyzer = part1;
+        if (args is [_, "-p2"])
+        {
+            tokenAnalyzer = part2;
+        }
 
         ITokenReader tokenReader = new CharReadingLineAwareReader(state.Reader!);
         tokenReader = new IntTokenReaderDecorator(tokenReader);

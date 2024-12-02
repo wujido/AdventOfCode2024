@@ -3,19 +3,19 @@
   "profiles": {
     "Part1 - test input": {
       "commandName": "Project",
-      "commandLineArgs": "1 test.txt"
+      "commandLineArgs": "test.txt"
     },
     "Part1 - puzzle input": {
       "commandName": "Project",
-      "commandLineArgs": "1 puzzle.txt"
+      "commandLineArgs": "puzzle.txt"
     },
     "Part2 - test input": {
       "commandName": "Project",
-      "commandLineArgs": "2 test.txt"
+      "commandLineArgs": "test.txt -p2"
     },
     "Part2 - puzzle input": {
       "commandName": "Project",
-      "commandLineArgs": "2 puzzle.txt"
+      "commandLineArgs": "puzzle.txt -p2"
     }
   }
 }
