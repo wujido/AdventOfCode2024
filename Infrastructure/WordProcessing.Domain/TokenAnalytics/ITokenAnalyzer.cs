@@ -1,6 +1,6 @@
 using WordProcessing.Domain.TokenReading;
 
-namespace WordProcessing.Domain;
+namespace WordProcessing.Domain.TokenAnalytics;
 
 public interface ITokenAnalyzer
 {

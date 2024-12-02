@@ -16,4 +16,8 @@
       </None>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Infrastructure\WordProcessing.App\WordProcessing.App.csproj" />
+    </ItemGroup>
+
 </Project>

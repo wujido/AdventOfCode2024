@@ -1,5 +1,6 @@
 ﻿using System.IO;
 using WordProcessing.Domain;
+using WordProcessing.Domain.TokenAnalytics;
 using WordProcessing.Domain.TokenReading;
 
 namespace WordProcessing.App;
