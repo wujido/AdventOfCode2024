@@ -1,7 +1,5 @@
-using WordProcessing.Domain;
 using WordProcessing.Domain.TokenAnalytics;
 using WordProcessing.Domain.TokenReading;
-using WordProcessing.Domain.TokenReading.Decorators;
 using WordProcessing.IO;
 
 namespace WordProcessing.App;
@@ -19,9 +17,13 @@ public class AoCProgram(ITokenAnalyzer part1, ITokenAnalyzer part2) : IProgramCo
             tokenAnalyzer = part2;
         }
 
-        ITokenReader tokenReader = new CharReadingLineAwareReader(state.Reader!);
-        tokenReader = new IntTokenReaderDecorator(tokenReader);
+        var tokenReader = GetTokenReader(state);
 
         TokenProcessingApp.Run(tokenReader, tokenAnalyzer);
+    }
+
+    protected virtual ITokenReader GetTokenReader(InputOutputState state)
+    {
+        return new CharReadingLineAwareReader(state.Reader!);
     }
 }

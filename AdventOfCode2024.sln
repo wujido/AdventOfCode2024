@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordProcessing.App", "Infra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{A9D095D9-A3F7-4452-9DE9-4AFDB59EC32A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day3", "Day3\Day3.csproj", "{C8436B67-1FC8-4432-B1A3-095F93DE9250}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -52,6 +54,10 @@ Global
 		{A9D095D9-A3F7-4452-9DE9-4AFDB59EC32A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9D095D9-A3F7-4452-9DE9-4AFDB59EC32A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9D095D9-A3F7-4452-9DE9-4AFDB59EC32A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8436B67-1FC8-4432-B1A3-095F93DE9250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8436B67-1FC8-4432-B1A3-095F93DE9250}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8436B67-1FC8-4432-B1A3-095F93DE9250}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8436B67-1FC8-4432-B1A3-095F93DE9250}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F061D845-B662-489A-BBE9-F74589644839} = {129E18F3-034D-40E9-9CD4-6445F9785FC0}
