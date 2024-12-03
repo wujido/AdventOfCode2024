@@ -1,4 +1,5 @@
-﻿using Day2;
+﻿using System.Runtime.CompilerServices;
+using Day2;
 using WordProcessing.App;
 using WordProcessing.Domain.TokenAnalytics;
 
