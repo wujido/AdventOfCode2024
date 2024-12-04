@@ -2,7 +2,7 @@ using WordProcessing.Domain.Puzzles;
 
 namespace Day2;
 
-public class Part2 : ILinesPuzzle
+public class Part2 : IMatrixPuzzle<int>
 {
     public int Solve(List<List<int>> reports)
     {

@@ -3,7 +3,7 @@ using WordProcessing.Domain.TokenReading;
 
 namespace WordProcessing.Domain.TokenAnalytics;
 
-public class LinesAnalyzer(ILinesPuzzle puzzle) : ITokenAnalyzer
+public class IntMatrixAnalyzer(IMatrixPuzzle<int> puzzle) : ITokenAnalyzer
 {
     private List<List<int>> Lines { get; } = [];
     private List<int> CurrentLine { get; } = [];

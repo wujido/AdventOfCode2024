@@ -6,8 +6,8 @@ using WordProcessing.Domain.TokenAnalytics;
 var appErrorHandler = new AppErrorHandler(Console.Error);
 appErrorHandler.RunProgram(
     new AoCIntProcessingProgram(
-        new LinesAnalyzer(new Part1()),
-        new LinesAnalyzer(new Part2())
+        new IntMatrixAnalyzer(new Part1()),
+        new IntMatrixAnalyzer(new Part2())
     ),
     args
 );
