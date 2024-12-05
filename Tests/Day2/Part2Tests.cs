@@ -134,14 +134,14 @@ public class Part2Tests
 
     private static void AssertReportIsSafe(List<int> input)
     {
-        var puzzle = new Part2();
+        var puzzle = new global::Day2.Part2();
         var res = puzzle.Solve([input]);
         Assert.Equal(1, res);
     }
 
     private static void AssertReportIsUnSafe(List<int> input)
     {
-        var puzzle = new Part2();
+        var puzzle = new global::Day2.Part2();
         var res = puzzle.Solve([input]);
         Assert.Equal(0, res);
     }

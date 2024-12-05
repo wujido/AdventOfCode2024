@@ -4,9 +4,9 @@ namespace Day2;
 
 public class Part2 : IMatrixPuzzle<int>
 {
-    public int Solve(List<List<int>> reports)
+    public int Solve(List<List<int>> matrix)
     {
-        return reports.Count(IsSafeWithDampener);
+        return matrix.Count(IsSafeWithDampener);
     }
 
     private static bool IsSafeWithDampener(List<int> report)

@@ -4,9 +4,9 @@ namespace Day2;
 
 internal class Part1 : IMatrixPuzzle<int>
 {
-    public int Solve(List<List<int>> reports)
+    public int Solve(List<List<int>> matrix)
     {
-        return reports.Count(IsSafe);
+        return matrix.Count(IsSafe);
     }
 
     private bool IsSafe(List<int> report)

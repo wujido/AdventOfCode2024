@@ -11,7 +11,7 @@
     },
     "Part2 - test input": {
       "commandName": "Project",
-      "commandLineArgs": "test-part2.txt -p2"
+      "commandLineArgs": "test.txt -p2"
     },
     "Part2 - puzzle input": {
       "commandName": "Project",
