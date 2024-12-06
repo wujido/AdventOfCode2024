@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "Part1 - test input": {
+      "commandName": "Project",
+      "commandLineArgs": "test.txt"
+    },
+    "Part1 - puzzle input": {
+      "commandName": "Project",
+      "commandLineArgs": "puzzle.txt"
+    },
+    "Part2 - test input": {
+      "commandName": "Project",
+      "commandLineArgs": "test.txt -p2"
+    },
+    "Part2 - puzzle input": {
+      "commandName": "Project",
+      "commandLineArgs": "puzzle.txt -p2"
+    }
+  }
+}
